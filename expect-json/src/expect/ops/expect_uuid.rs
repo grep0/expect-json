@@ -130,7 +130,7 @@ mod test_uuid {
             output,
             r#"Json expect::uuid() error at root:
     failed to parse string '🦊' as uuid,
-    invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `🦊` at 1"#
+    invalid character: found `🦊` at 1"#
         );
     }
 }

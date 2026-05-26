@@ -4,7 +4,7 @@ resolver = "2"
 
 [workspace.package]
 authors = ["Joseph Lenton <josephlenton@gmail.com>"]
-version = "1.10.1"
+version = "1.11.0"
 edition = "2024"
 rust-version = "1.85"
 license = "MIT"
@@ -14,17 +14,17 @@ repository = "https://github.com/JosephLenton/expect-json"
 publish = true
 
 [workspace.dependencies]
-expect-json = { version = "1.10.0", path = "./expect-json" }
-expect-json-macros = { version = "1.10.0", path = "./expect-json-macros" }
+expect-json = { version = "1.11.0", path = "./expect-json" }
+expect-json-macros = { version = "1.11.0", path = "./expect-json-macros" }
 
 chrono = "0.4.44"
 email_address = "0.2.9"
 num = "0.4.3"
 serde = "1.0.228"
-serde_json = "1.0.149"
-typetag = "0.2.21"
+serde_json = "1.0.150"
+typetag = "0.2.22"
 thiserror = "2.0.18"
-uuid = "1.21.0"
+uuid = "1.23.1"
 regex = "1.12.3"
 
 proc-macro2 = "1.0.106"
@@ -35,5 +35,5 @@ pretty_assertions = "1.4.1"
 rstest = "0.26.1"
 
 # For Documentation
-axum = "0.8.8"
-axum-test = { version = "19.1.0", path = "../axum-test" }
+axum = "0.8.9"
+axum-test = { version = "20.0.0", path = "../axum-test" }
